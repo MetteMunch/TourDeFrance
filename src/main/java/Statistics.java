@@ -1,5 +1,6 @@
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.Set;
 
 public class Statistics {
@@ -12,17 +13,17 @@ public class Statistics {
         fullList = tdf.readFile();
     }
 
-    public Set<Rider> getTeams(){
-        //TO DO lav kode
-    }
+//    public Set<Rider> getTeams(){
+//        //TO DO lav kode
+//    }
+//
+//    public List<Rider> getTeamsWithMembersWhoFinished(){
+//        //TO DO lav kode
+//    }
 
-    public List<Rider> getTeamsWithMembersWhoFinished(){
-        //TO DO lav kode
-    }
-
-    public Map<String,String[]> getTeamMembers(String team){
-        //TO DO lav kode
-    }
+//    public Map<String,String[]> getTeamMembers(String team){
+//        //TO DO lav kode
+//    }
 
 
 }
