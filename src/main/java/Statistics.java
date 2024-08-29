@@ -1,7 +1,4 @@
-import java.util.List;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Statistics {
 
@@ -13,11 +10,15 @@ public class Statistics {
         fullList = tdf.readFile();
     }
 
-//    public Set<Rider> getTeams(){
-//        //TO DO lav kode
-//    }
-//
-//    public List<Rider> getTeamsWithMembersWhoFinished(){
+    public Set<String> getTeams(){
+        Set<String> result = new HashSet<>();
+        for(Rider r : fullList){
+            result.add(r.getTeam());
+        }
+        return result;
+    }
+
+//    public List<Rider> getTeamsWithMembers(){
 //        //TO DO lav kode
 //    }
 
